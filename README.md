@@ -15,21 +15,21 @@ This project provides tools to perform stress testing on a list of domains and l
 ## Setup
 
 1. **Clone the Repository**:
-    ```sh
+
     git clone https://github.com/MarkoPolo15/SAM_seamless_network.git
     cd SAM_seamless_network
-    ```
+
 
 2. **Create a Virtual Environment**:
-    ```sh
+
     python -m venv venv
-    ```
+
 
 
 3. **Install Dependencies**:
-    ```
+
     pip install -r requirements.txt
-    ```
+
 
 4. **Create a `.env` File**:
     If diesnt exist - Create a `.env` file in the project root directory and add the following environment variables:
@@ -41,9 +41,9 @@ This project provides tools to perform stress testing on a list of domains and l
 ## Usage
 
 1. **Run the `run_stress_test.py` Script**:
-    ```sh
+
     python run_stress_test.py --concurrent_requests 10 --number_of_domains 100 --timeout 60 --output results.csv --retry 3 --verbose --use_retries
-    ```
+
 
     ### Arguments:
     - `--concurrent_requests`: Number of concurrent requests.
