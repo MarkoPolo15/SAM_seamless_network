@@ -35,7 +35,7 @@ This project provides tools to perform stress testing on a list of domains and l
     If diesnt exist - Create a `.env` file in the project root directory and add the following environment variables:
     ```plaintext
     API_URL=https://microcks.gin.dev.securingsam.io/rest/Reputation+API/1.0.0/domain/ranking/
-    AUTH_TOKEN=I_am_under_stress_when_I_test
+    AUTH_TOKEN=The provided TOKEN
     ```
 
 ## Usage
